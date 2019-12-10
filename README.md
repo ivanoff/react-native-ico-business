@@ -1,6 +1,6 @@
-# react-native-ico-business
+# Business Icons for React Native
 
-### Business Icons for React Native
+### react-native-ico-business
 
 113 Icons
 
@@ -13,15 +13,19 @@ import Icon from 'react-native-ico-business';
 // Inside some view component
 render() {
     return (
-        <Fragment>
+        <>
           <Icon name="24-hours" />
           <Icon name="chat" height="40" width="40" />
           <Icon name="bank" color="red" />
-        </Fragment>
+        </>
     );
 }
 
 ```
+
+## List of icons
+
+- [List of Business Icons](static/business.md)
 
 ## Installation
 
@@ -63,13 +67,9 @@ width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40
 ...rest | no | | other props | style={{backgroundColor: "#00f"}}
 
-## List of icons
-
-- [List of Business Icons](static/business.md)
-
 ## Icons Made by
 
-[Dave Gandy](https://www.flaticon.com/authors/dave-gandy)
+[Tomas Knop](https://www.flaticon.com/authors/tomas-knop)
 
 ## Created by
 
