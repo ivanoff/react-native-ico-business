@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of Business Icons](static/business.md)
+- [List of Business Icons](http://ico.simpleness.org/pack/business)
 
 ## Installation
 
