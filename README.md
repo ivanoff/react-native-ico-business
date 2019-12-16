@@ -1,8 +1,8 @@
-# business Icons for React Native
+# Business Icons for React Native
 
 ### react-native-ico-business
 
-369 Icons
+113 Icons
 
 ## Usage
 
@@ -25,7 +25,7 @@ render() {
 
 ## List of icons
 
-- [List of business Icons](http://ico.simpleness.org/pack/business)
+- [List of Business Icons](http://ico.simpleness.org/pack/business)
 
 ## Installation
 
