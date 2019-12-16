@@ -1,4 +1,4 @@
-module.exports = `
+module.exports = {
 	'idea-3': `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 450.56 450.56" style="enable-background:new 0 0 450.56 450.56;" xml:space="preserve">
 <g>
 	<circle style="fill:#DADEE0;" cx="378.88" cy="348.16" r="71.68"/>
@@ -1495,4 +1495,4 @@ module.exports = `
 	<path style="fill:#DADEE0;" d="M363.049,363.776c5.038-5.478,8.151-12.749,8.151-20.736V122.906l-125.435,97.541L363.049,363.776z"/>
 </g>
 </svg>
-``
+`}
