@@ -14,9 +14,9 @@ import Icon from 'react-native-ico-business';
 render() {
     return (
         <>
-          <Icon name="004-share-1" />
-          <Icon name="005-idea-2" height="40" width="40" />
-          <Icon name="006-thinking" color="red" />
+          <Icon name="share-1" />
+          <Icon name="idea-2" height="40" width="40" />
+          <Icon name="thinking" color="red" />
         </>
     );
 }
@@ -61,7 +61,7 @@ Returns a SvgXml icon by name and group.
 
  name | optional | default value | description | examples
 ------|----------|---------------|-------------|---------
-name | no |  | name of file | "004-share-1"
+name | no |  | name of file | "share-1"
 color | yes | | line color, css style | "#00ff00", "#0f0", "green"
 width | yes | 20 | width of the icon | 40
 height | yes | 20 | height of the icon | 40

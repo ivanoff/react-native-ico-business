@@ -1,6 +1,6 @@
 {
   "name": "react-native-ico-business",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "description": "Business Icons for React Native",
   "main": "src/index.js",
   "dependencies": {
