@@ -1,5 +1,6 @@
 declare module 'react-native-ico-business' {
     import { ReactNode } from 'react';
+    import { SvgProps, AdditionalProps } from 'react-native-svg';
 
     type iconNames = 'idea-3' |
       'minimize' |
@@ -146,7 +147,7 @@ declare module 'react-native-ico-business' {
       badge?: number | string | badgeTypeObj;
     }
 
-    const Icon: (props: IconProps) => ReactNode;
+    const Icon: (props: IconProps & SvgProps & AdditionalProps) => ReactNode;
 
     export { iconNames };
     export default Icon;
