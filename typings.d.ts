@@ -116,7 +116,32 @@ declare module 'react-native-ico-business' {
       'buildings' |
       'email';
 
+    type iconColors = '#1BA9D8' |
+      '#1BB7EA' |
+      '#1CA6D4' |
+      '#1CA8D7' |
+      '#1F4254' |
+      '#7D8790' |
+      '#96A0A8' |
+      '#A4ABB1' |
+      '#B4C0C6' |
+      '#BEC7CB' |
+      '#C2CACE' |
+      '#C3CBCF' |
+      '#C5CED3' |
+      '#C7CED2' |
+      '#C8CFD2' |
+      '#D7DBDE' |
+      '#D8DDDF' |
+      '#DADEE0' |
+      '#DCE0E2' |
+      '#E8ECEE' |
+      '#F2F2F2' |
+      '#FFFFFF';
+
     type backgroundType = 'circle' | 'rect' | 'button';
+
+    type colorsType = Record<iconColors, string>;
 
     type positionType = 'top' | 'bottom' | 'right' | 'left' |
       'top_right' | 'top_left' | 'bottom_right' | 'bottom_left';
@@ -133,6 +158,7 @@ declare module 'react-native-ico-business' {
       fontSize?: string;
       position?: positionType;
       color?: string;
+      colors: colorsType;
       backgroundColor?: string;
       radius?: number;
     };
@@ -142,6 +168,7 @@ declare module 'react-native-ico-business' {
       width?: number;
       height?: number;
       color?: string;
+      colors: colorsType;
       stroke?: number;
       background?: backgroundType | backgroundTypeObj;
       badge?: number | string | badgeTypeObj;
